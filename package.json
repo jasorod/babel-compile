@@ -1,6 +1,6 @@
 {
   "name": "babel-compile",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A script to compile .js and .jsx to es6 with Babel using babel-core, that actually works!",
   "main": "lib/compile.js",
   "scripts": {
@@ -12,17 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhford/babel-compile.git"
+    "url": "https://github.com/jasorod/babel-compile"
   },
   "keywords": [
     "taskcluster",
     "babel"
   ],
-  "author": "John Ford <jhford.mozilla@com>",
+  "contributors": [
+    "John Ford <jhford.mozilla@com>",
+    "Jason Rodriguez <jason.rodriguez@cbn.org>"
+  ],
   "license": "MPL-2.0",
-  "homepage": "https://github.com/jhford/babel-compile",
+  "homepage": "https://github.com/jasorod/babel-compile",
   "dependencies": {
-    "babel-core": "^6.7.0",
+    "@babel/core": "^7.4.5",
     "commander": "^2.8.1",
     "fs-walk": "0.0.1",
     "lodash": "^4.11.1",
