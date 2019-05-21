@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasorod/babel-compile"
+    "url": "git+https://github.com/jasorod/babel-compile.git"
   },
   "keywords": [
     "taskcluster",
